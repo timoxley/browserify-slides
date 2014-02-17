@@ -1,0 +1,29 @@
+{
+  "name": "browserify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js --open -- -t brfs"
+  },
+  "browserify": {
+    "transforms": "brfs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "~0.3.1",
+    "brfs": "~0.2.1",
+    "jsynth": "~2.1.0",
+    "level": "~0.18.0",
+    "level-js": "~1.1.2",
+    "leveldown": "~0.10.2",
+    "levelup": "~0.18.2",
+    "highlight.js": "^8.0.0",
+    "es6ify": "^0.4.8",
+    "uglifyify": "^1.2.2"
+  },
+  "devDependencies": {
+    "browserify": "~2.36.1"
+  }
+}
